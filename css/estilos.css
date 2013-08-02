@@ -1,0 +1,27 @@
+@import url("http://fonts.googleapis.com/css?family=OpenSans");
+*{border:0;margin:0;padding:0}
+@font-face{font-family:OpenSans;font-style:normal;src:url("../fonts/OpenSans-Regular.ttf")}
+body{background:#111;font-family:OpenSans;font-size:16px;margin:0 auto;padding:0}
+header{background:#111;float:left;height:100%;position:fixed;width:275px;}
+header aside{display:block;height:100px;}
+header aside #social{bottom:0;position:absolute;width:100%}
+header aside ul li{display:inline-block;list-style:none;margin:10px;}
+header aside ul li a:hover{color:#111;opacity:.3;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;-ms-transition:all 1s ease-out;-o-transition:all 1s ease-out;transition:all 1s ease-out}
+header h1{margin:10px;}
+header h1 figure{height:145px;width:205px}
+header nav{color:#fff;border-bottom:thin solid #808080;border-top:thin solid #808080;display:block;margin:15px;text-align:left;}
+header nav ul li{list-style:none;margin:10px 0;}
+header nav ul li a{color:#fff;font-family:OpenSans;font-weight:bold;text-decoration:none;}
+header nav ul li a:hover{color:#d3d3d3;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;-ms-transition:all 1s ease-out;-o-transition:all 1s ease-out;transition:all 1s ease-out}
+section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
+#content{display:inline-block;float:right;position:relative;text-align:left;vertical-align:top;width:735px;}
+#content footer{background:#f4f4f4;margin:10px 0;padding:10px}
+#content a{color:#111;font-size:.8em;text-decoration:none}
+#content .section1{background:#fff;clear:both;display:block;float:left;margin:0 0 10px 0;}
+#content .section1 h3,#content .section1 p{margin:10px 20px;text-align:justify}
+#content .section1 p{color:#808080;font-size:13px}
+#content h2{margin:10px 20px}
+#content .section2{background:#fff;display:inline-block;margin:5px;vertical-align:top;width:355px;}
+#content .section2 img{width:100%}
+#content .section2 h3,#content .section2 p,#content .section2 span{margin:10px 20px;text-align:justify}
+#content .section2 p{color:#808080;font-size:13px}

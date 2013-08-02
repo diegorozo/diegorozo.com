@@ -1,0 +1,157 @@
+oscuro = #111111
+claro = #F4F4F4
+transicion()
+	-webkit-transition all 1s ease-out
+	-moz-transition all 1s ease-out 
+	-ms-transition all 1s ease-out 
+	-o-transition all 1s ease-out 
+	transition all 1s ease-out
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+*
+	border 0
+	margin 0
+	padding 0
+
+@font-face
+	font-family Open+Sans
+	font-style normal
+	src url(../fonts/OpenSans-Regular.ttf)
+
+body
+	background oscuro
+	font-family Open+Sans
+	font-size 16px
+	margin 0 auto
+	padding 0
+
+
+header
+	background oscuro
+	float left
+	height 100%
+	position fixed
+	width 275px
+
+	aside
+		display	block
+		height 100px
+
+		#social
+			bottom 0
+			position absolute
+			width 100%
+
+
+		ul li
+			display inline-block
+			list-style none
+			margin 10px
+
+			a:hover
+				color oscuro
+				opacity: 0.3
+				transicion()
+
+	h1
+		margin 10px
+
+		figure
+			height 145px
+			width 205px
+
+	nav
+		color white
+		border-bottom thin solid gray
+		border-top thin solid gray
+		display block
+		margin 15px
+		text-align left
+
+
+		ul li
+			list-style none
+			margin	10px 0
+
+			a
+				color white
+				font-family Open+Sans
+				font-weight bold
+				text-decoration none
+
+				&:hover
+					color lightgray			
+					transicion()
+
+
+
+section
+	background white
+	margin 0 auto
+	padding 0
+	text-align center
+
+	width 1010px
+
+#content
+	display inline-block
+	float right
+	position relative
+	text-align left
+	vertical-align top
+	width 735px
+
+
+	footer
+		background claro
+		margin 10px 0
+		padding 10px
+
+
+	a
+		color oscuro
+		font-size 0.8em
+		text-decoration none
+			
+
+	.section1
+		background white
+		clear both
+		display block
+		float left
+		margin 0 0 10px 0 
+
+		h3, p
+			margin 10px 20px
+			text-align justify
+
+		p
+			color gray
+			font-size 13px
+
+	h2
+		margin 10px 20px
+
+	.section2
+		background white
+		display inline-block
+		margin 5px
+		vertical-align top
+		width 355px
+
+		img
+			width 100%
+
+		h3, p, span
+			margin 10px 20px
+			text-align justify
+
+		p
+			color gray
+			font-size 13px
+
+
