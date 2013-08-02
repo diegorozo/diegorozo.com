@@ -6,14 +6,14 @@ a{font-family:OpenSans}
 body{background:#111;font-family:OpenSans;font-size:16px;margin:0 auto;padding:0}
 header{background:#111;float:left;height:100%;position:fixed;width:275px;}
 header aside{display:block;height:100px;}
+header aside ul li{display:inline-block;list-style:none;margin:10px;}
+header aside ul li a:hover{color:#111;opacity:.3;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;-ms-transition:all 1s ease-out;-o-transition:all 1s ease-out;transition:all 1s ease-out}
 header aside #social{bottom:0;position:absolute;width:100%;}
-header aside #social a{color:#fff;font-size:2em;text-decoration:none}
+header aside #social a{color:#fff;font-size:2em;font-style:normal;font-weight:normal;font-variant:normal;text-decoration:none}
 header aside #social .menuface:before{font-family:'icomoon';content:"\e002"}
 header aside #social .menutwit:before{font-family:'icomoon';content:"\e003"}
 header aside #social .menuplus:before{font-family:'icomoon';content:"\e001"}
 header aside #social .menugit:before{font-family:'icomoon';content:"\e006"}
-header aside ul li{display:inline-block;list-style:none;margin:10px;}
-header aside ul li a:hover{color:#111;opacity:.3;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;-ms-transition:all 1s ease-out;-o-transition:all 1s ease-out;transition:all 1s ease-out}
 header h1{margin:10px;}
 header h1 figure{height:145px;width:205px}
 header nav{color:#fff;border-bottom:thin solid #808080;border-top:thin solid #808080;display:block;margin:15px;text-align:left;}
