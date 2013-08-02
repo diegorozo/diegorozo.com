@@ -25,3 +25,5 @@ section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
 #content .section2 img{width:100%}
 #content .section2 h3,#content .section2 p,#content .section2 span{margin:10px 20px;text-align:justify}
 #content .section2 p{color:#808080;font-size:13px}
+@media screen and (max-width: 480px){header{background:#f00}
+}
