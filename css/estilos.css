@@ -25,9 +25,11 @@ section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
 #content{display:inline-block;float:right;position:relative;text-align:left;vertical-align:top;width:735px;}
 #content a{color:#111;font-size:.8em;text-decoration:none}
 #content h2{margin:10px 20px}
-#content footer{display:block;margin:0 auto;text-align:center;}
+#content footer{background:#111;display:block;float:left;margin:0 auto;padding:10px;text-align:center;width:100%;}
 #content footer ul li{display:inline-block;vertical-align:top;}
-#content footer ul li a{text-decoration:none}
+#content footer ul li a{color:#fff;font-size:.8em;font-style:normal;font-weight:normal;font-variant:normal;padding:0 5px;text-decoration:none}
+#content footer ul li .menuhtml:before{font-family:'icomoon';font-size:2em;content:"\e000"}
+#content footer ul li .menucss:before{font-family:'icomoon';font-size:2em;content:"\e004"}
 #content .section1{background:#fff;clear:both;display:block;float:left;margin:0 0 10px 0;}
 #content .section1 h3,#content .section1 p{margin:10px 20px;text-align:justify}
 #content .section1 p{color:#808080;font-size:13px}
