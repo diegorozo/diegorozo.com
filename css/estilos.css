@@ -15,12 +15,16 @@ header nav ul li a{color:#fff;font-family:OpenSans;font-weight:bold;text-decorat
 header nav ul li a:hover{color:#d3d3d3;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;-ms-transition:all 1s ease-out;-o-transition:all 1s ease-out;transition:all 1s ease-out}
 section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
 #content{display:inline-block;float:right;position:relative;text-align:left;vertical-align:top;width:735px;}
-#content footer{background:#f4f4f4;margin:10px 0;padding:10px}
 #content a{color:#111;font-size:.8em;text-decoration:none}
+#content footer{background:#f00;display:inline-block;vertical-align:top;width:100%;}
+#content footer .footer{background:#008000;display:block;color:#111;font-size:.8em;text-decoration:none;width:45%}
+#content footer #footericons{background:#ff0;width:45%;}
+#content footer #footericons li{display:inline-block;vertical-align:top;}
+#content footer #footericons li a{text-decoration:none}
+#content h2{margin:10px 20px}
 #content .section1{background:#fff;clear:both;display:block;float:left;margin:0 0 10px 0;}
 #content .section1 h3,#content .section1 p{margin:10px 20px;text-align:justify}
 #content .section1 p{color:#808080;font-size:13px}
-#content h2{margin:10px 20px}
 #content .section2{background:#fff;display:inline-block;margin:5px;vertical-align:top;width:355px;}
 #content .section2 img{width:100%}
 #content .section2 h3,#content .section2 p,#content .section2 span{margin:10px 20px;text-align:justify}
