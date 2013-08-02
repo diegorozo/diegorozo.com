@@ -16,12 +16,10 @@ header nav ul li a:hover{color:#d3d3d3;-webkit-transition:all 1s ease-out;-moz-t
 section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
 #content{display:inline-block;float:right;position:relative;text-align:left;vertical-align:top;width:735px;}
 #content a{color:#111;font-size:.8em;text-decoration:none}
-#content footer{background:#f00;display:inline-block;vertical-align:top;width:100%;}
-#content footer .footer{background:#008000;display:block;color:#111;font-size:.8em;text-decoration:none;width:45%}
-#content footer #footericons{background:#ff0;width:45%;}
-#content footer #footericons li{display:inline-block;vertical-align:top;}
-#content footer #footericons li a{text-decoration:none}
 #content h2{margin:10px 20px}
+#content footer{display:block;margin:0 auto;text-align:center;}
+#content footer ul li{display:inline-block;vertical-align:top;}
+#content footer ul li a{text-decoration:none}
 #content .section1{background:#fff;clear:both;display:block;float:left;margin:0 0 10px 0;}
 #content .section1 h3,#content .section1 p{margin:10px 20px;text-align:justify}
 #content .section1 p{color:#808080;font-size:13px}
