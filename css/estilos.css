@@ -7,7 +7,7 @@ body{background:#111;font-family:OpenSans;font-size:16px;margin:0 auto;padding:0
 header{background:#111;float:left;height:100%;position:fixed;width:275px;}
 header aside{display:block;height:100px;}
 header aside ul li{display:inline-block;list-style:none;margin:10px;}
-header aside ul li a:hover{color:#111;opacity:.3;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;-ms-transition:all 1s ease-out;-o-transition:all 1s ease-out;transition:all 1s ease-out}
+header aside ul li a:hover{color:#111;opacity:.3;-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;transition:all .5s ease-in}
 header aside #social{bottom:0;position:absolute;width:100%;}
 header aside #social a{color:#fff;font-size:2em;font-style:normal;font-weight:normal;font-variant:normal;text-decoration:none}
 header aside #social .menuface:before{font-family:'icomoon';content:"\e002"}
@@ -19,7 +19,7 @@ header h1 figure{height:145px;width:205px}
 header nav{color:#fff;border-bottom:thin solid #808080;border-top:thin solid #808080;display:block;margin:15px;text-align:left;}
 header nav ul li{list-style:none;margin:10px 0;}
 header nav ul li .menu{color:#fff;font-family:OpenSans;font-weight:bold;text-decoration:none;}
-header nav ul li .menu:hover{color:#d3d3d3;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;-ms-transition:all 1s ease-out;-o-transition:all 1s ease-out;transition:all 1s ease-out}
+header nav ul li .menu:hover{color:#d3d3d3;-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;transition:all .5s ease-in}
 header nav ul li .menu:before{font-family:'icomoon';content:"\e005"}
 section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
 #content{display:inline-block;float:right;position:relative;text-align:left;vertical-align:top;width:735px;}
