@@ -15,7 +15,7 @@ header aside #social .menutwit:before{font-family:'icomoon';content:"\e003"}
 header aside #social .menuplus:before{font-family:'icomoon';content:"\e001"}
 header aside #social .menugit:before{font-family:'icomoon';content:"\e006"}
 header h1{margin:10px;}
-header h1 figure{height:145px;width:205px}
+header h1 figure img{height:164px;width:150px}
 header nav{color:#fff;border-bottom:thin solid #808080;border-top:thin solid #808080;display:block;margin:15px;text-align:left;}
 header nav ul li{list-style:none;margin:10px 0;}
 header nav ul li .menu{color:#fff;font-family:OpenSans;font-weight:bold;text-decoration:none;}
