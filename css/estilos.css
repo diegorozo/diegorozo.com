@@ -7,12 +7,8 @@ body{background:#111;font-family:OpenSans;font-size:16px;margin:0 auto;padding:0
 header{background:#111;float:left;height:100%;position:fixed;width:275px;}
 header aside{display:block;height:100px;}
 header aside ul li{display:inline-block;list-style:none;margin:10px;}
-<<<<<<< HEAD
 header aside ul li a:hover{color:#111;opacity:.3;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter:alpha(opacity=30);-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;-webkit-transition:all 0.5s ease-in;-moz-transition:all 0.5s ease-in;-o-transition:all 0.5s ease-in;-ms-transition:all 0.5s ease-in;transition:all 0.5s ease-in}
 header aside ul li a:active{color:#111;opacity:.3;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter:alpha(opacity=30);transic}
-=======
-header aside ul li a:hover{color:#111;opacity:.3;-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;transition:all .5s ease-in}
->>>>>>> 40c5adc4aaed961806f1316dfb7290ebcbc85efd
 header aside #social{bottom:0;position:absolute;width:100%;}
 header aside #social a{color:#fff;font-size:2em;font-style:normal;font-weight:normal;font-variant:normal;text-decoration:none}
 header aside #social .menuface:before{font-family:'icomoon';content:"\e002"}
@@ -24,11 +20,7 @@ header h1 figure img{height:164px;width:150px}
 header nav{color:#fff;border-bottom:thin solid #808080;border-top:thin solid #808080;display:block;margin:15px;text-align:left;}
 header nav ul li{list-style:none;margin:10px 0;}
 header nav ul li .menu{color:#fff;font-family:OpenSans;font-weight:bold;text-decoration:none;}
-<<<<<<< HEAD
 header nav ul li .menu:hover{color:#d3d3d3;-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;-webkit-transition:all 0.5s ease-in;-moz-transition:all 0.5s ease-in;-o-transition:all 0.5s ease-in;-ms-transition:all 0.5s ease-in;transition:all 0.5s ease-in}
-=======
-header nav ul li .menu:hover{color:#d3d3d3;-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;transition:all .5s ease-in}
->>>>>>> 40c5adc4aaed961806f1316dfb7290ebcbc85efd
 header nav ul li .menu:before{font-family:'icomoon';content:"\e005"}
 section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
 #content{display:inline-block;float:right;position:relative;text-align:left;vertical-align:top;width:735px;}
@@ -67,26 +59,21 @@ section{background:#fff;margin:0 auto;padding:0;text-align:center;width:1010px}
 #content .section1 .nivo-controlNav{left:49%;padding:5px 10px;position:absolute;-webkit-border-radius:20px;border-radius:20px;bottom:20px;z-index:9990;-webkit-box-shadow:0 0 2px #000;box-shadow:0 0 2px #000;display:none}
 #content .section2{background:#fff;display:inline-block;margin:5px;vertical-align:top;width:355px;}
 #content .section2 img{width:100%}
-<<<<<<< HEAD
 #content .section2 h3,#content .section2 p,#content .section2 span,#content .section2 ul{margin:10px 20px;text-align:justify}
+#content .section2 p{position:relative;top:-20px}
 #content .section2 p,#content .section2 ul{color:#808080;font-size:13px;}
 #content .section2 p .icon-star:after,#content .section2 ul .icon-star:after{font-family:'icomoon';font-size:2em;content:"\e000";padding:0 0 0 50px}
 #content .section2 li{list-style:none}
-=======
-#content .section2 h3,#content .section2 p,#content .section2 span{margin:10px 20px;text-align:justify}
-#content .section2 p{color:#808080;font-size:13px}
->>>>>>> 40c5adc4aaed961806f1316dfb7290ebcbc85efd
+#content .section2 span,#content .section2 a{font-size:12px;position:relative;top:-15px}
+#content .section2 a{top:0;}
+#content .section2 a:hover{color:#d3d3d3;-webkit-transition:all .5s ease-in;-moz-transition:all .5s ease-in;-ms-transition:all .5s ease-in;-o-transition:all .5s ease-in;-webkit-transition:all 0.5s ease-in;-moz-transition:all 0.5s ease-in;-o-transition:all 0.5s ease-in;-ms-transition:all 0.5s ease-in;transition:all 0.5s ease-in}
 @media screen and (max-width: 480px){#wrapper{margin:0 auto;width:100%}
 header{background:#111;display:block;margin:0 auto;position:relative;width:100%;}
 header figure{margin:0 auto;text-align:center;width:100%}
 header nav{text-align:center;}
 header nav li{margin:0;width:100%;}
 header nav li a{color:#f00;display:block;padding:10px 0;}
-<<<<<<< HEAD
 header nav li a:hover{background:#3d3d3f;-webkit-border-radius:5px;border-radius:5px;opacity:.8;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter:alpha(opacity=80)}
-=======
-header nav li a:hover{background:#3d3d3f;border-radius:5px;opacity:.8}
->>>>>>> 40c5adc4aaed961806f1316dfb7290ebcbc85efd
 header aside{line-height:75px;position:relative}
 #content{position:relative}
 }
