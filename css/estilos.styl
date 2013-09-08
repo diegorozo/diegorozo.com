@@ -1,11 +1,12 @@
+@import 'nib'
 oscuro = #111111
 claro = #F4F4F4
 transicion()
-	-webkit-transition all 1s ease-out
-	-moz-transition all 1s ease-out 
-	-ms-transition all 1s ease-out 
-	-o-transition all 1s ease-out 
-	transition all 1s ease-out
+	-webkit-transition all 0.5s ease-in
+	-moz-transition all 0.5s ease-in 
+	-ms-transition all 0.5s ease-in
+	-o-transition all 0.5s ease-in 
+	transition all 0.5s ease-in
 
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
@@ -20,6 +21,10 @@ transicion()
 	font-weight: normal;
 	font-style: normal;
 
+@font-face
+	font-family Open+Sans
+	font-style normal
+	src url(../fonts/OpenSans-Regular.ttf)
 
 
 *
@@ -27,10 +32,6 @@ transicion()
 	margin 0
 	padding 0
 
-@font-face
-	font-family Open+Sans
-	font-style normal
-	src url(../fonts/OpenSans-Regular.ttf)
 
 a
 	font-family Open+Sans
@@ -66,6 +67,11 @@ header
 				opacity: 0.3
 				transicion()
 
+			a:active
+				color oscuro
+				opacity: 0.3
+				transic
+
 		#social
 			bottom 0
 			position absolute
@@ -99,9 +105,9 @@ header
 	h1
 		margin 10px
 
-		figure
-			height 145px
-			width 205px
+		figure img
+			height 164px
+			width 150px
 
 	nav
 		color white
@@ -207,6 +213,147 @@ section
 			font-size 13px
 
 
+		.nivoSlider
+			position relative
+			width 100%
+			overflow hidden
+
+		.nivoSlider img
+			position absolute
+			top 0px
+			left 0px
+			width 100%
+			height 418px
+			margin 0px auto
+
+		.nivoSlider a.nivo-imageLink
+			position: absolute
+			top: 0px
+			left: 0px
+			width: 100%
+			height: 100%
+			border: 0
+			padding: 0
+			margin: 0
+			z-index: 6
+			display: none
+
+		.nivo-slice
+			display: block
+			position: absolute
+			z-index: 5
+			height: 100%
+
+		.nivo-box
+			display: block
+			position: absolute
+			z-index: 5
+
+		.nivo-caption
+			position: absolute
+			color: #b1b1b1
+			width auto
+			z-index 9985
+			bottom 20px
+			margin 0px 20px 0px 20px
+			padding 20px
+			display block !important
+			background black
+			box-sizing border-box
+			font-family 'Open+Sans', sans-serif
+
+
+		.capt-heading
+			float: left
+			width: 250px
+			text-transform: uppercase
+			padding-right: 20px
+			margin-right: 20px
+			border-right: #3e3e3e dotted 1px
+
+		.capt-heading h1
+			color: #FFF
+			font-size: 50px
+			line-height: 50px
+
+		.capt-heading h1:first-child
+			font-size: 25px
+			line-height: 25px
+
+		.capt-text
+			float: left
+			width: 609px
+
+		.capt-text p
+			font-size: 14px
+
+		.capt-text h4
+			padding-bottom: 5px
+
+		.nivo-html-caption
+			display: none
+
+		.nivo-directionNav
+			height: 60px
+			width: 100%
+			position: absolute
+			bottom: 179px
+			z-index: 9990
+			display: inline-block !important
+
+		.nivo-directionNav a
+			z-index: 9
+			cursor: pointer
+			text-indent: -9999px
+
+		.nivo-prevNav
+			width: 30px
+			height: 60px
+			float: left
+			display: inline-block !important
+			background: url(../images/banner-arrows.png) no-repeat 0px 0px #3d3d3d
+
+		.nivo-nextNav
+			width: 30px
+			height: 60px
+			float: right
+			display: inline-block !important
+			background: url(../images/banner-arrows.png) no-repeat -30px 0px #3d3d3d
+
+		.nivo-controlNav a
+			position: relative
+			z-index: 9
+			cursor: pointer
+
+		.nivo-controlNav a.active
+			font-weight: bold
+
+		.theme-default .nivoSlider
+			position: relative
+			background: #fff url(../images/ajax-loader.gif) no-repeat 50% 50%
+
+		.theme-default .nivoSlider img
+			position: absolute
+			top: 0px
+			left: 0px
+			display: none
+
+		.theme-default .nivoSlider a
+			display: block
+
+		.nivo-controlNav
+			left: 49%
+			padding: 5px 10px
+			position: absolute
+			border-radius: 20px
+			bottom: 20px
+			z-index: 9990
+			box-shadow: 0px 0px 2px #000
+			display: none
+
+
+
+
 	.section2
 		background white
 		display inline-block
@@ -217,19 +364,72 @@ section
 		img
 			width 100%
 
-		h3, p, span
+		h3, p, span, ul
 			margin 10px 20px
 			text-align justify
 
-		p
+		p, ul
 			color gray
 			font-size 13px
+
+			.icon-star:after
+				font-family 'icomoon'
+				font-size 2em
+				content: "\e000"
+				padding 0 0 0 50px
+
+		li
+			list-style none
+
+
+			
+
+
 
 
 @media screen and (max-width: 480px)
 
+	#wrapper
+		margin 0 auto
+		width 100%
+
 	header
-		background red
+		background oscuro
+		display block
+		margin 0 auto
+		position relative
+		width 100%
+
+		figure
+			margin 0 auto
+			text-align center
+			width 100%
+
+		nav			
+			text-align center
+
+			li
+				
+				margin 0
+				width 100%
+
+				a
+					color red
+					display block
+					padding 10px 0
+
+					&:hover
+						background #3D3D3F
+						border-radius 5px
+						opacity 0.8
+		aside
+			line-height 75px
+			position relative
+					
+
+
+	#content
+		position relative
 
 
 
@@ -238,3 +438,4 @@ section
 
 
 
+			
